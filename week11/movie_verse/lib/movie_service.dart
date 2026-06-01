@@ -4,7 +4,7 @@ import 'movie_model.dart';
 
 class MovieService {
   static const String apiKey =
-      'c91a987d6b69c918ce8f118e321f6ec7';
+      'c91a987d6b69c918ce8f118e321f****'; // api key sengaja saya edit pas di publik ke github
 
   Future<List<Movie>> getPopularMovies() async {
     final response = await http.get(
